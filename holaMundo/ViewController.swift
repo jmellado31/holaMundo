@@ -10,11 +10,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var labelHolaMundo: UILabel!
+    
+    @IBOutlet weak var imgPlaneta: UIImageView!
+    
+    @IBOutlet weak var btnEntrar: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    
+    @IBAction func btnEntrarAction(_ sender: Any) {
+        print("TodoBien")
+        self .labelHolaMundo.text="Mi Primera App"
+        self .imgPlaneta.increaseSize(<#T##sender: Any?##Any?#>)
+    }
+    
 
 }
+
+
 
