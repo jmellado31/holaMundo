@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     @IBAction func btnEntrarAction(_ sender: Any) {
         print("TodoBien")
         self .labelHolaMundo.text="Mi Primera App"
-        self .imgPlaneta.increaseSize(<#T##sender: Any?##Any?#>)
+        self .imgPlaneta.alpha=0.1
     }
     
 
