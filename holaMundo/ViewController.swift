@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     }
     
     
-    @IBAction func btnEntrarAction(_ sender: Any) {
+    @IBAction func btnEntrarAction(_ sender: UIButton) {
         print("TodoBien")
         self .labelHolaMundo.text="Mi Primera App"
         self .imgPlaneta.alpha=0.1
